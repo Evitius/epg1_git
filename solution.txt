@@ -1,0 +1,18 @@
+$ git clone https://github.com/Evitius/epg1_git.git
+$ ls
+$ cd epg1_git
+$ git status
+$ git branch hw-s18803
+$ git status
+$ git checkout rebase-me
+$ git rebase hw-s18803
+$ git checkout hw-s18803
+$ git merge rebase-me
+$ git merge origin/merge-me
+$ git mergetool
+:diffg RE
+:wqa
+$ nano solution.txt
+$ git add solution.txt
+$ git commit -m "hw-s18803"
+$ git push -u origin hw-s18803
